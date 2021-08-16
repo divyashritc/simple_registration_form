@@ -1,0 +1,79 @@
+body {
+    background-image: url('images/images.jpg');
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    opacity: 0.9;
+}
+
+#form {
+    /* background-color: #84e184; */
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 700px;
+    min-width: 90%;
+    padding: 5px 40px 40px 40px;
+}
+
+#form1 {
+    /* background-color: #84e184; */
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 360px;
+    min-width: 60%;
+    padding: 5px 40px 40px 40px;
+}
+
+.registration {
+    font-size: 55px;
+    font-family: Agency FB;
+    font-weight: bold;
+    border-bottom-style: ridge;
+    color: #00f0fc;
+}
+
+.text {
+    height: 43px;
+    color: deeppink;
+    font-weight: bold;
+}
+
+.text1 {
+    height: 43px;
+    color: #00ffc4;
+    font-weight: bold;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.btn-primary {
+    padding: 5px;
+    width: 50%;
+    font-weight: bold;
+}
+.btn-primary:hover {
+    padding: 5px;
+    width: 50%;
+    background-color:white;
+    color:black;
+    font-weight: bold;
+}
+.row1 {
+    padding-left: 50%;
+}
+
+.row2 {
+    padding-left: 26%;
+    padding-top: 20%;
+}
+input[type="text"]:focus{
+    outline: none;
+    box-shadow: 0px 0px 5px green;
+    border-color: #5AB0DB;
+}
+
+input[type="text"]:hover{
+    border: 1px solid green;
+    border-radius: 5px;
+}

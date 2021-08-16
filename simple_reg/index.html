@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="reg_form.css">
+    <title>Event Registration Page</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Registration page design -->
+     
+        <div class="row row1" id="reg_page">
+            <div class="col-md-6 col-md-offset-3" id="form">
+                <p class="registration text-center">Event Registration</p>
+
+                <form action="" id="Forminfo1">
+                    <div class="form-group">
+                        <label for="UserName">Username: *</label>
+                        <input type="text" id="user_name" name="name" class="form-control text" autocomplete="off"
+                            placeholder="Username" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Email">Email: *</label>
+                        <input type="text" id="email" name="email" class="form-control text" autocomplete="off"
+                            placeholder="user@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Password">Password: *</label>
+                        <input type="password" id="pwd" name="Password" class="form-control text" autocomplete="off"
+                            placeholder="Password" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Mobile">Mobile Number: *</label>
+                        <input type="text" id="mob" name="Mobile" class="form-control text" autocomplete="off"
+                            placeholder="+ 91" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="otp">OTP: *</label>
+                        <input type="text" id="captcha" name="otp" class="form-control text" autocomplete="off"
+                            placeholder="OTP" required>
+                    </div>
+
+                    <div class="form-group">
+                        <p class="text-center text1" id="otp"> </p>
+                    </div>
+                </form>
+                <div class="form-group text-center">
+                    <input type="submit" id="btn" value="Submit" onclick="validate()" class="btn btn-primary">
+                </div>
+            </div>
+        </div>
+
+        <!-- Login Page Design -->
+
+        <div class="row row2" id="login_page">
+            <div class="col-md-6 col-md-offset-3" id="form1">
+                <p class="registration text-center">Login Page</p>
+
+                <form action="" id="forminfo2">
+                    <div class="form-group">
+                        <label for="UserName">Username:</label>
+                        <input type="text" id="log_uname" name="name" class="form-control text" autocomplete="off"
+                            placeholder="Enter Username" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Password">Password:</label>
+                        <input type="password" id="log_pwd" name="Password" class="form-control text" autocomplete="off"
+                            placeholder="Enter Password" required>
+                    </div>
+
+                </form>
+                <div class="form-group text-center">
+                    <input type="submit" id="btn1" value="Login" onclick="Login()" class="btn btn-primary">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>
